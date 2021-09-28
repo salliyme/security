@@ -1,0 +1,30 @@
+{
+    "name": "salliyme/security",
+    "description": "Security with RSA Encrypt",
+    "keywords": ["Security", "RSA", "Encrypt", "php"],
+    "homepage": "https://github.com/salliyme/security",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "salliyme",
+            "email": "salliyme@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3||^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "salliyme\\security\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "salliyme\\security\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
